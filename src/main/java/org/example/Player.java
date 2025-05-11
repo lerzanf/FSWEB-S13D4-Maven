@@ -21,6 +21,10 @@ public class Player {
         }
     }
 
+    public Weapon getWeapon(){ // extra
+        return this.weapon;
+    }
+
     public int healthRemaining() {
         return this.healthPercentage;
     }
